@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">Docker from source to a local web page</title><desc id="desc">Dockerfile and site files build an image; the image starts a container; localhost port 8080 maps to container port 8000. Small orange dots trace the connections.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1b34"/><stop offset="1" stop-color="#173d5b"/></linearGradient></defs>
+<rect width="1200" height="400" rx="22" fill="url(#bg)"/>
+<rect x="22" y="22" width="1156" height="356" rx="20" fill="none" stroke="#4c8198" stroke-width="2"/>
+<text x="48" y="69" fill="#ffad55" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2">CONTAINER FUNDAMENTALS / LOCAL LAB</text>
+<text x="48" y="112" fill="#f2f9fc" font-family="Arial,sans-serif" font-size="32" font-weight="700">From files to a running page</text>
+<text x="48" y="143" fill="#bad2de" font-family="Arial,sans-serif" font-size="17">A build creates an image. A run creates a container. Port mapping makes it reachable on this computer.</text>
+<g fill="#102a43" stroke="#5ab5c7" stroke-width="2">
+<rect x="48" y="184" width="229" height="126" rx="15"/><rect x="340" y="184" width="229" height="126" rx="15"/>
+<rect x="632" y="184" width="229" height="126" rx="15"/><rect x="924" y="184" width="229" height="126" rx="15"/>
+</g>
+<g fill="#f4f9fc" font-family="Arial,sans-serif" font-weight="700" font-size="24">
+<text x="68" y="228">01  Dockerfile</text><text x="360" y="228">02  Image</text><text x="652" y="228">03  Container</text><text x="944" y="228">04  Browser</text>
+</g>
+<g fill="#b8d3df" font-family="Arial,sans-serif" font-size="18">
+<text x="68" y="263">recipe + site files</text><text x="360" y="263">built package</text><text x="652" y="263">running process</text><text x="944" y="263">127.0.0.1:8080</text>
+</g>
+<g fill="none" stroke="#74dce7" stroke-width="3"><path d="M277 247H340"/><path d="M569 247H632"/><path d="M861 247H924"/></g>
+<g fill="#ffad55"><circle cx="277" cy="247" r="6"><animate attributeName="cx" values="277;340;277" dur="3s" repeatCount="indefinite"/></circle><circle cx="569" cy="247" r="6"><animate attributeName="cx" values="569;632;569" dur="3s" begin="1s" repeatCount="indefinite"/></circle><circle cx="861" cy="247" r="6"><animate attributeName="cx" values="861;924;861" dur="3s" begin="2s" repeatCount="indefinite"/></circle></g>
+<text x="48" y="350" fill="#79e0e8" font-family="Arial,sans-serif" font-size="17">docker build</text>
+<text x="340" y="350" fill="#79e0e8" font-family="Arial,sans-serif" font-size="17">docker run</text>
+<text x="632" y="350" fill="#79e0e8" font-family="Arial,sans-serif" font-size="17">container port 8000 → host loopback port 8080</text>
+</svg>

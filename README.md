@@ -13,7 +13,7 @@ I'm working toward an entry-level **AWS cloud support** or **junior cloud engine
 
 ### Tools and topics I'm learning
 
-![AWS learning](https://img.shields.io/badge/AWS-learning-232F3E?logo=amazonwebservices&logoColor=white) ![Linux learning](https://img.shields.io/badge/Linux-learning-1A4561?logo=linux&logoColor=white) ![Terraform learning](https://img.shields.io/badge/Terraform-learning-6047B8?logo=terraform&logoColor=white) ![CloudWatch learning](https://img.shields.io/badge/CloudWatch-learning-9D4D00?logo=amazoncloudwatch&logoColor=white)
+![AWS learning](https://img.shields.io/badge/AWS-learning-232F3E?logo=amazonwebservices&logoColor=white) ![Linux learning](https://img.shields.io/badge/Linux-learning-1A4561?logo=linux&logoColor=white) ![Terraform learning](https://img.shields.io/badge/Terraform-learning-6047B8?logo=terraform&logoColor=white) ![CloudWatch learning](https://img.shields.io/badge/CloudWatch-learning-9D4D00?logo=amazoncloudwatch&logoColor=white) ![Docker learning](https://img.shields.io/badge/Docker-learning-155E82?logo=docker&logoColor=white)
 
 ## Featured AWS learning projects
 
@@ -32,6 +32,17 @@ A public subnet, internet gateway, route table, security group, and EC2 web serv
 **[Explore CloudWatch troubleshooting →](https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/03-cloudwatch-troubleshooting)**  
 An EC2 metrics dashboard, CPU alarm, and guided HTTP fault exercise. **Status:** Code prepared; AWS deployment unverified.
 
+## Container fundamentals · Docker
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/docker-flow-mobile.svg">
+  <img src="assets/docker-flow.svg" alt="Animated Docker flow: Dockerfile and site files build an image, which starts a container that the browser reaches through localhost" width="100%">
+</picture>
+
+**Dockerfile = instructions. Image = built package. Container = running process.** The port mapping connects my browser on `127.0.0.1:8080` to the process listening on port `8000` inside the container. [My Docker fundamentals lab](https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/04-docker-container-fundamentals) includes the working code, a second diagram explaining image layers and the Docker host, a troubleshooting drill, and complete cleanup steps.
+
+**Status:** Built and verified locally; no AWS container deployment is claimed.
+
 ## The lab whiteboard
 
 <picture>
@@ -49,7 +60,8 @@ My [Azure cloud engineer portfolio](https://github.com/asrar-cloud/azure-cloud-e
 
 1. Deploy each AWS lab in a sandbox account, record my own verification, and destroy the resources.
 2. Practise explaining VPC routing, security groups, EC2 bootstrapping, and CloudWatch alarms without notes.
-3. Improve the labs with HTTPS, IAM access patterns, and repeatable checks after I understand the fundamentals.
+3. Rebuild the Docker image after changing the page, explain the image/container difference, and diagnose a stopped container.
+4. Improve the labs with HTTPS, IAM access patterns, and repeatable checks after I understand the fundamentals.
 
 ## Contact
 

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="670" viewBox="0 0 600 670" role="img" aria-labelledby="title desc">
+<title id="title">Docker build and run flow for mobile screens</title><desc id="desc">Dockerfile and site files become an image; the image starts a container; the browser reaches the container through a local port mapping.</desc>
+<rect width="600" height="670" rx="20" fill="#0c203a"/><rect x="17" y="17" width="566" height="636" rx="18" fill="none" stroke="#4c8198" stroke-width="2"/>
+<text x="40" y="58" fill="#ffad55" font-family="Arial,sans-serif" font-size="17" font-weight="700">LOCAL DOCKER LAB</text>
+<text x="40" y="97" fill="#f4f9fc" font-family="Arial,sans-serif" font-size="28" font-weight="700">From files to a running page</text>
+<g fill="#102a43" stroke="#5ab5c7" stroke-width="2"><rect x="40" y="132" width="520" height="92" rx="14"/><rect x="40" y="270" width="520" height="92" rx="14"/><rect x="40" y="408" width="520" height="92" rx="14"/><rect x="40" y="546" width="520" height="92" rx="14"/></g>
+<g fill="#f4f9fc" font-family="Arial,sans-serif" font-size="23" font-weight="700"><text x="61" y="169">01  Dockerfile</text><text x="61" y="307">02  Image</text><text x="61" y="445">03  Container</text><text x="61" y="583">04  Browser</text></g>
+<g fill="#b8d3df" font-family="Arial,sans-serif" font-size="17"><text x="61" y="199">recipe + site files</text><text x="61" y="337">built package</text><text x="61" y="475">running process · port 8000</text><text x="61" y="613">127.0.0.1:8080</text></g>
+<g fill="none" stroke="#74dce7" stroke-width="3"><path d="M300 224V270"/><path d="M300 362V408"/><path d="M300 500V546"/></g>
+<g fill="#ffad55"><circle cx="300" cy="224" r="6"><animate attributeName="cy" values="224;270;224" dur="3s" repeatCount="indefinite"/></circle><circle cx="300" cy="362" r="6"><animate attributeName="cy" values="362;408;362" dur="3s" begin="1s" repeatCount="indefinite"/></circle><circle cx="300" cy="500" r="6"><animate attributeName="cy" values="500;546;500" dur="3s" begin="2s" repeatCount="indefinite"/></circle></g>
+</svg>
