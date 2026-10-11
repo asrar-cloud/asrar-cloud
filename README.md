@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/banner.gif" alt="ASRAR — Aspiring AWS Cloud Engineer. Animated cloud infrastructure network." width="100%">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/banner-mobile.gif">
+    <img src="assets/banner.gif" alt="ASRAR — Aspiring AWS Cloud Engineer. Animated cloud infrastructure network." width="100%">
+  </picture>
 </p>
 
 ### Hi, I'm Asrar 👋
@@ -14,17 +17,17 @@ I'm working toward an entry-level **AWS cloud support** or **junior cloud engine
 
 ## Featured AWS learning projects
 
-<a href="https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/01-ec2-linux-web-server"><img src="assets/project-1.gif" alt="Animated diagram: browser, TCP port 80, EC2 Linux server with Nginx" width="760"></a>
+<a href="https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/01-ec2-linux-web-server"><picture><source media="(max-width: 600px)" srcset="assets/project-1-mobile.gif"><img src="assets/project-1.gif" alt="Animated diagram: browser, TCP port 80, EC2 Linux server with Nginx" width="100%"></picture></a>
 
 **[Explore the EC2 Linux web server →](https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/01-ec2-linux-web-server)**  
 Terraform, Amazon Linux 2023, Nginx, an HTTP security group, encrypted root storage, and IMDSv2. **Status:** Code prepared; AWS deployment unverified.
 
-<a href="https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/02-terraform-vpc-ec2"><img src="assets/project-2.gif" alt="Animated diagram: internet, VPC route, EC2 web server" width="760"></a>
+<a href="https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/02-terraform-vpc-ec2"><picture><source media="(max-width: 600px)" srcset="assets/project-2-mobile.gif"><img src="assets/project-2.gif" alt="Animated diagram: internet, VPC route, EC2 web server" width="100%"></picture></a>
 
 **[Explore the Terraform VPC and EC2 lab →](https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/02-terraform-vpc-ec2)**  
 A public subnet, internet gateway, route table, security group, and EC2 web server. **Status:** Code prepared; AWS deployment unverified.
 
-<a href="https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/03-cloudwatch-troubleshooting"><img src="assets/project-3.gif" alt="Animated diagram: EC2 metrics, CloudWatch, monitoring dashboard" width="760"></a>
+<a href="https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/03-cloudwatch-troubleshooting"><picture><source media="(max-width: 600px)" srcset="assets/project-3-mobile.gif"><img src="assets/project-3.gif" alt="Animated diagram: EC2 metrics, CloudWatch, monitoring dashboard" width="100%"></picture></a>
 
 **[Explore CloudWatch troubleshooting →](https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/03-cloudwatch-troubleshooting)**  
 An EC2 metrics dashboard, CPU alarm, and guided HTTP fault exercise. **Status:** Code prepared; AWS deployment unverified.
