@@ -32,6 +32,15 @@ A public subnet, internet gateway, route table, security group, and EC2 web serv
 **[Explore CloudWatch troubleshooting →](https://github.com/asrar-cloud/aws-cloud-portfolio/tree/main/03-cloudwatch-troubleshooting)**  
 An EC2 metrics dashboard, CPU alarm, and guided HTTP fault exercise. **Status:** Code prepared; AWS deployment unverified.
 
+## The lab whiteboard
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/whiteboard-mobile.png">
+  <img src="assets/whiteboard.png" alt="Whiteboard notes explaining the EC2 HTTP path, what makes a subnet public, and how to investigate an HTTP timeout" width="100%">
+</picture>
+
+These are my study prompts for explaining the architecture and troubleshooting steps. They describe what the code is intended to build; they are not AWS deployment evidence.
+
 ## Also exploring Azure
 
 My [Azure cloud engineer portfolio](https://github.com/asrar-cloud/azure-cloud-engineer-portfolio) covers separate Azure labs in Linux, networking, Terraform, monitoring, and troubleshooting. I keep the AWS and Azure work clearly labeled so each project can be reviewed on its own.
